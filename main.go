@@ -5,7 +5,7 @@ import "github.com/gin-gonic/gin"
 func main() {
 	r := gin.Default()
 	r.GET("/test", getData)
-
+	r.GET("/testAir", getData)
 	r.Run()
 }
 
